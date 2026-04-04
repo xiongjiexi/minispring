@@ -1,5 +1,6 @@
-package com.mini.spring;
+package com.mini.spring.test;
 
+import com.mini.spring.AService;
 import com.mini.spring.beans.BeansException;
 import com.mini.spring.context.ClassPathXmlApplicationContext;
 

@@ -1,10 +1,9 @@
-package com.mini.spring;
+package com.mini.spring.context;
 
+import com.mini.spring.beans.BeanDefinition;
 import com.mini.spring.beans.BeanFactory;
 import com.mini.spring.beans.BeansException;
-import com.mini.spring.core.ClassPathXmlResource;
-import com.mini.spring.core.SimpleBeanFactory;
-import com.mini.spring.core.XmlBeanDefinitionReader;
+import com.mini.spring.beans.SimpleBeanFactory;
 
 public class ClassPathXmlApplicationContext implements BeanFactory {
     BeanFactory beanFactory;
