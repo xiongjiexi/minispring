@@ -35,3 +35,5 @@ logs/
 # 特定文件或目录
 config/production.yml
 data/
+
+out/
